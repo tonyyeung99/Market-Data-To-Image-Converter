@@ -1,0 +1,8 @@
+#HSI_DATA_DIR = "D:\datastore\hsi"
+HSI_DATA_FILE = r"\HSI_1m_20120306-20170322.txt"
+HSI_LABEL_FILE =r"\y_label.txt"
+#HSI_DATA_EXPORT_DIR = r"\scaled_data"
+HSI_DATA_EXPORT_PREFIX = r"\hsi"
+
+HSI_IMAGE_HEIGHT = 180
+HSI_IMAGE_WIDTH = 300
