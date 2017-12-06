@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cf0e6e0-732f-4469-94a7-1e56f99fe356" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/hsi1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -195,6 +196,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pyproject\market_data_2_image\test" />
       <recent name="D:\pyproject\HSIFuturePlayground2\test_source\data\market_data_2_image" />
       <recent name="D:\pyproject\HSIFuturePlayground2\source\data\market_data_2_image" />
       <recent name="D:\pyproject\HSIFuturePlayground2\source" />
