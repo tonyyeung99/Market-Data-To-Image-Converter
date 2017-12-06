@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8cf0e6e0-732f-4469-94a7-1e56f99fe356" name="Default" comment="" />
+    <list default="true" id="8cf0e6e0-732f-4469-94a7-1e56f99fe356" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,21 +13,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data_exporter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data_exporter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/data/market_data_2_image/data_exporter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="e#417#435#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_data_transformer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_source/data/market_data_2_image/test_data_transformer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app_constants.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/app_constants.py">
+      <file leaf-file-name="testExtractFile.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_source/data/market_data_2_image/testExtractFile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,6 +126,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -141,6 +158,7 @@
     <option name="width" value="924" />
     <option name="height" value="792" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -162,42 +180,6 @@
           <expand>
             <path>
               <item name="market_data_2_image" type="b2602c69:ProjectViewProjectNode" />
-              <item name="market_data_2_image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="market_data_2_image" type="b2602c69:ProjectViewProjectNode" />
-              <item name="market_data_2_image" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="market_data_2_image" type="b2602c69:ProjectViewProjectNode" />
-              <item name="market_data_2_image" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="market_data_2_image" type="b2602c69:ProjectViewProjectNode" />
-              <item name="market_data_2_image" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="market_data_2_image" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="market_data_2_image" type="b2602c69:ProjectViewProjectNode" />
-              <item name="market_data_2_image" type="462c0819:PsiDirectoryNode" />
-              <item name="test_source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="market_data_2_image" type="b2602c69:ProjectViewProjectNode" />
-              <item name="market_data_2_image" type="462c0819:PsiDirectoryNode" />
-              <item name="test_source" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="market_data_2_image" type="b2602c69:ProjectViewProjectNode" />
-              <item name="market_data_2_image" type="462c0819:PsiDirectoryNode" />
-              <item name="test_source" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="market_data_2_image" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -231,7 +213,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_exporter">
+  <component name="RunManager" selected="Python tests.Nosetests in testExtractFile.py">
+    <configuration name="Nosetests in testExtractFile.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_source/data/market_data_2_image" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HSIFuturePlayground2" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_source/data/market_data_2_image/testExtractFile.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Nosetests in test_data_transformer.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_source/data/market_data_2_image" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HSIFuturePlayground2" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_source/data/market_data_2_image/test_data_transformer.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Nosetests in test_inout_splitter.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_source/data/market_data_2_image" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HSIFuturePlayground2" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_source/data/market_data_2_image/test_inout_splitter.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Nosetests in test_scaler.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -262,71 +289,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_source/data/market_data_2_image/test_y_labeler.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="data_exporter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/data/market_data_2_image" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HSIFuturePlayground2" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/data/market_data_2_image/data_exporter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="data_scaler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/data/market_data_2_image" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HSIFuturePlayground2" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/data/market_data_2_image/data_scaler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="y_labeler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/data/market_data_2_image" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HSIFuturePlayground2" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/data/market_data_2_image/y_labeler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_scaler.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.data_exporter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.y_labeler" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in test_y_labeler.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.data_scaler" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in test_y_labeler.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_transformer.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_inout_splitter.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in test_scaler.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in testExtractFile.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.data_exporter" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in testExtractFile.py" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in test_y_labeler.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.data_scaler" />
-        <item index="3" class="java.lang.String" itemvalue="Python.y_labeler" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in test_scaler.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in test_scaler.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in test_inout_splitter.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in test_data_transformer.py" />
       </list>
     </recent_temporary>
   </component>
@@ -344,20 +320,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetests_in_test_y_labeler_py - 2017.09.25 at 16h 53m 17s.xml">
-      <configuration name="Nosetests in test_y_labeler.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_testExtractFile_py - 2017.12.07 at 06h 32m 12s.xml">
+      <configuration name="Nosetests in testExtractFile.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_y_labeler_py - 2017.09.25 at 16h 54m 42s.xml">
-      <configuration name="Nosetests in test_y_labeler.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_data_transformer_py - 2017.12.07 at 06h 31m 30s.xml">
+      <configuration name="Nosetests in test_data_transformer.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_y_labeler_py - 2017.09.25 at 16h 57m 26s.xml">
-      <configuration name="Nosetests in test_y_labeler.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_inout_splitter_py - 2017.12.07 at 06h 31m 45s.xml">
+      <configuration name="Nosetests in test_inout_splitter.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetests_in_test_y_labeler_py - 2017.09.25 at 16h 57m 36s.xml">
-      <configuration name="Nosetests in test_y_labeler.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetests_in_test_y_labeler_py - 2017.09.25 at 16h 57m 48s.xml">
-      <configuration name="Nosetests in test_y_labeler.py" configurationId="tests" />
+    <history-entry file="Nosetests_in_test_scaler_py - 2017.12.07 at 06h 31m 54s.xml">
+      <configuration name="Nosetests in test_scaler.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Nosetests_in_test_y_labeler_py - 2017.09.25 at 16h 57m 59s.xml">
       <configuration name="Nosetests in test_y_labeler.py" configurationId="tests" />
@@ -374,16 +347,18 @@
     <history-entry file="Nosetests_in_test_y_labeler_py - 2017.09.25 at 17h 02m 55s.xml">
       <configuration name="Nosetests in test_y_labeler.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Nosetests_in_test_y_labeler_py - 2017.12.07 at 06h 32m 03s.xml">
+      <configuration name="Nosetests in test_y_labeler.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945135" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35861182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35861182" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,7 +386,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#417#435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -485,7 +462,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#417#435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -577,7 +556,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="53" column="69" lean-forward="false" selection-start-line="53" selection-start-column="69" selection-end-line="53" selection-end-column="69" />
-          <folding />
+          <folding>
+            <element signature="e#417#435#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -594,10 +575,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_source/data/market_data_2_image/test_y_labeler.py" />
-    <entry file="file://$PROJECT_DIR$/test_source/data/market_data_2_image/test_data_transformer.py" />
     <entry file="file://$PROJECT_DIR$/test_source/data/market_data_2_image/test_inout_splitter.py" />
     <entry file="file://$PROJECT_DIR$/test_source/data/market_data_2_image/test_scaler.py" />
-    <entry file="file://$PROJECT_DIR$/test_source/data/market_data_2_image/testExtractFile.py" />
     <entry file="file://$PROJECT_DIR$/source/app_constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -666,8 +645,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/data/market_data_2_image/data_exporter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="289">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="e#417#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_source/data/market_data_2_image/test_data_transformer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="23" lean-forward="false" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_source/data/market_data_2_image/testExtractFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
