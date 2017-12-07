@@ -1,4 +1,4 @@
-HSI_DATA_FILE = r"\HSI_1m_20120306-20170322.txt"
+HSI_DATA_FILE = r"\hsi_market_data.txt"
 HSI_LABEL_FILE =r"\y_label.txt"
 HSI_DATA_EXPORT_PREFIX = r"\hsi"
 HSI_IMAGE_HEIGHT = 180

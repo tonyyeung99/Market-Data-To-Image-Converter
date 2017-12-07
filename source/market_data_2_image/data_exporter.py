@@ -4,15 +4,17 @@
 # 2. Parsing the raw data to market data
 # 3. Scaling the market data and fit it in the size of one image
 # 4. Export the image data
-# 5. Also calculate the label file - label whether the trading day rise/drop in the last 30 minutes
+# 5. Also calculate the label file - label whether the trading day rise/drop in the last 60 minutes
 ############################################
 
 import math
 import os
 import cv2
 import numpy as np
-import source.market_data_2_image.MarketDataSplitter as market_data_spliter
-import source.market_data_2_image.data_scaler as market_data_scaler
+# import source.market_data_2_image.MarketDataSplitter as market_data_spliter
+from source.market_data_2_image.data_input_output_splitter import MarketDataSplitter as market_data_splitter
+# rket_data_2_image.data_scaler as market_data_scaler
+from source.market_data_2_image.data_scaler import MarketDataScaler as market_data_scaler
 import source.market_data_2_image.data_transformer as market_data_transformer
 import source.market_data_2_image.y_labeler as market_data_labeler
 import source.market_data_2_image.HSI_data_extractor as market_data_extractor
@@ -37,19 +39,18 @@ def is_empty_data(one_day_extracts):
 
 
 def process_one_day_data(one_day_extracts, label_file_buffers, currentIndex):
-
     img = np.zeros((const.HSI_IMAGE_HEIGHT, const.HSI_IMAGE_WIDTH, 3), np.uint8)
 
     # Split the one day into two parts: first 300 mintues as input, the remaining data as output
-    spliter = market_data_spliter.input_output_splitter(one_day_extracts, const.HSI_IMAGE_WIDTH)
+    spliter = market_data_splitter(one_day_extracts, const.HSI_IMAGE_WIDTH)
     split_flag, input_obj, output_obj = spliter.split()
 
-    #unable to split the data
+    # unable to split the data
     if (split_flag == False):
         return
 
     # Scale the input data to fit into the size of one image
-    scaler = market_data_scaler.md_data_scaler(input_obj)
+    scaler = market_data_scaler(input_obj)
     input_obj, max, min, v_scale = scaler.scale(const.HSI_IMAGE_HEIGHT)
 
     # Plot the price graph by using the scaled input data
@@ -77,7 +78,7 @@ def save_image_file(currentIndex, img):
 
 
 def process_data():
-    #initial the buffer writing to the label file
+    # initial the buffer writing to the label file
     label_file_buffers = []
     label_file_buffers.append('index, date, isRise20Pct, isRise40Pct, refMax, refMin, v_scale\n')
 
@@ -99,14 +100,15 @@ def write_label_file(label_file_buffers):
         f.write(line)
 
 
-# initialize the path variables
-current_dir = os.getcwd()
-import_path = os.path.join(current_dir, "../../data/import" + const.HSI_DATA_FILE)
+if __name__ == '__main__':
+    # initialize the path variables
+    current_dir = os.getcwd()
+    import_path = os.path.join(current_dir, "../../data/import" + const.HSI_DATA_FILE)
 
-# extract the raw data from the market data files
-extracts_obj = market_data_extractor.extract_file(import_path)
+    # extract the raw data from the market data files
+    extracts_obj = market_data_extractor.extract_file(import_path)
 
-# Prepare the market data populator
-poper = market_data_transformer.MarketDataPoper(extracts_obj)
+    # Prepare the market data populator
+    poper = market_data_transformer.MarketDataPoper(extracts_obj)
 
-process_data()
+    process_data()
